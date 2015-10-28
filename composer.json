@@ -1,0 +1,30 @@
+{
+    "name": "imkingdavid/customusertitle",
+    "type": "phpbb-extension",
+    "description": "An extension for phpBB 3.1 that will let your users set their own custom user title. This can show above, below, or instead of the user's rank.",
+    "homepage": "http://www.github.com/imkingdavid/customusertitle",
+    "version": "1.0.0",
+    "time": "2014-10-04",
+    "keywords": ["phpbb", "custom user title", "extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "David King (imkingdavid)",
+            "email": "imkingdavid@gmail.com",
+            "homepage": "http://www.thedavidking.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "Custom User Title - v1.0.0",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.6"
+        }
+    }
+}

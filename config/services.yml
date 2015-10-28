@@ -1,0 +1,11 @@
+services:
+    customusertitle.listener:
+        class: imkingdavid\customusertitle\event\listener
+        arguments:
+            - @user
+            - @config
+            - @auth
+            - @template
+            - @request
+        tags:
+            - { name: event.listener }
