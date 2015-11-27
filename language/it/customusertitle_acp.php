@@ -34,9 +34,9 @@ if (empty($lang) || !is_array($lang))
 // ’ and “”
 
 $lang = array_merge($lang, array(
-	'CUSTOM_USER_TITLE_LOCATION' => 'Posizione livello personale',
-	'CUSTOM_USER_TITLE_LOCATION_EXPLAIN' => 'Con quest’impostazione, è possibile determinare la posizione del livello personale rispetto a quello predefinito: è possibile mostrarlo sopra, sotto o al posto di esso.',
-	'CUSTOM_USER_TITLE_BEFORE_RANK' => 'Prima del livello predefinito',
-	'CUSTOM_USER_TITLE_REPLACES_RANK' => 'Rimpiazza il livello predefinito',
-	'CUSTOM_USER_TITLE_AFTER_RANK' => 'Dopo il livello predefinito',
+	'CUSTOM_USER_TITLE_LOCATION' => 'Posizione titolo personale',
+	'CUSTOM_USER_TITLE_LOCATION_EXPLAIN' => 'Con quest’impostazione, è possibile determinare la posizione del titolo personale rispetto al livello utente: è possibile mostrarlo sopra, sotto o al posto di esso.',
+	'CUSTOM_USER_TITLE_BEFORE_RANK' => 'Prima del livello utente',
+	'CUSTOM_USER_TITLE_REPLACES_RANK' => 'Rimpiazza il livello utente',
+	'CUSTOM_USER_TITLE_AFTER_RANK' => 'Dopo il livello utente',
 ));
