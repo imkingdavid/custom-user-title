@@ -33,6 +33,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CUSTOM_USER_TITLE' => 'Livello personale',
+	'CUSTOM_USER_TITLE' => 'Titolo personale',
 	'CUSTOM_USER_TITLE_EXPLAIN' => 'Questo testo sarà mostrato al di sotto del proprio nome utente, nel profilo e nei messaggi.',
 ));
